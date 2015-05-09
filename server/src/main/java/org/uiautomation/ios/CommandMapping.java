@@ -155,7 +155,9 @@ public enum CommandMapping {
   NATIVE_SWITCH_SET_VALUE(SetSwitchValueNHandler.class),
 
   //UIASlider
-  SLIDER_DRAG_TO_VALUE(SetSliderPosNHandler.class);
+  SLIDER_DRAG_TO_VALUE(SetSliderPosNHandler.class),
+
+  ACTION(ActionHandler.class);
 
 
   private WebDriverLikeCommand command;
